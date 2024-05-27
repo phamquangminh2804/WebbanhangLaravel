@@ -1,0 +1,137 @@
+.login_wrapper {
+  text-align: center;
+}
+.login_wrapper .img{
+    display: inline-block;
+    width: 120px; /* Kích thước của khung hình ảnh */
+    height: 120px;
+    overflow: hidden; /* Cắt bỏ khoảng trắng */
+}
+
+.login_wrapper .img img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Đảm bảo hình ảnh điền vào khung hình ảnh */
+    object-position: center; /* Canh giữa hình ảnh trong khung */
+}
+
+.login_wrapper .login_form{
+    margin-top: 180px;
+}
+.block-login-gg-fb {
+    gap: 30px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+.block-login-gg-fb .login-gg-fb {
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    font-size: 18px;
+    justify-content: center;
+    padding: 14px 0;
+}
+.block-login-gg-fb .login-gg-fb .login-gg-fb__icon {
+    height: 24px;
+    margin-right: 10px;
+}
+
+.block-login-gg-fb .login-gg-fb{
+    margin-top: 15px;
+    margin-bottom: 1rem;
+}
+
+.line-through {
+    margin-top: 20px;
+    display: flex;
+}
+
+.line-through hr {
+    background-color: #dbdbdb;
+    height: 1px;
+    width: 100%;
+}
+.line-through p {
+  
+    padding: 0 10px;
+    font-size: 20px;
+    white-space: nowrap;
+}
+
+.login_wrapper .contents h1{
+    font-size: 25px;
+    
+}
+.login_wrapper h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.form-control {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 100%;
+  display: block;
+  margin: 10px auto;
+  font-size: 1.1rem;
+  text-align: left;
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: #333;
+  box-shadow: 0px 0px 3px rgba(51, 51, 51, 0.2);
+}
+
+.btn-primary {
+  background-color: #e0052b;
+  border-color: #333;
+  color: #fff;
+  padding: 10px 40px;
+  border-radius: 5px;
+  margin: 10px auto;
+  display: block;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #444;
+  border-color: #444;
+}
+
+.form-control::placeholder {
+  color: #999;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.text-success {
+  color: #4CAF50;
+  font-size: 1.2rem;
+  margin: 10px auto;
+  display: block;
+}
+
+.text-danger {
+  color: #F44336;
+  font-size: 1.2rem;
+  margin: 10px auto;
+  display: block;
+}
+
+@media (max-width: 767px) {
+  .login_wrapper {
+    width: 100%;
+    max-width: none;
+  }
+}
